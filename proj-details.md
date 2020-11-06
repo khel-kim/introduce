@@ -1,5 +1,13 @@
 # Project Details
 
+- [Project Details](#project-details)
+  * [Reformer](#reformer)
+  * [Micro-blog texts의 스티커 추천을 위한 딥러닝 기반의 API 제작](#micro-blog-texts---------------------api---)
+  * [EmotionGIF Challenge](#emotiongif-challenge)
+  * [AI Challenge - Question & Answering task](#ai-challenge---question---answering-task)
+  * [기업 분석을 위한 뉴스 비지도 클러스터링](#----------------------)
+
+
 ## Reformer
 
 - 프로젝트 목표 : Transformer의 구조를 효율적으로 변환한 구조인 Reformer를 이해하고 pytorch 구현체를 tensorflow로 포팅하기
