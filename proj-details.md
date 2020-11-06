@@ -18,9 +18,9 @@
         - Locally-sensitive hashing attention을 통해 한 token에 대한 attention value를 몇 개의 token들의 attention value로 근사
 - keywords
     - Reformer
-    - pytorch, tensorflow
+    - PyTorch, TF1
 
-## Micro-blog texts의 스티커 추천을 위한 딥러닝 기반의 API 제작
+## Micro-blog texts의 스티커 추천을 위한 API 제작
 
 - 프로젝트 목표 : 유저가 작성한 메세지와 함께 보낼 수 있는 스티커를 추천하는 딥러닝 엔진 제작하기
 - 프로젝트 내용
@@ -57,7 +57,7 @@
     - ALBERT, BiDAF, DocQA
         - BiDAF - word embeding + chan cnn + highway + bi-lstm + attention + bi-lstm * 2 + dense
         - DocQA - BiDAF(bi-gru) + self-attention + bi-gru + dense
-    - pytorch
+    - PyTorch
 
 ## 기업 분석을 위한 뉴스 비지도 클러스터링
 
