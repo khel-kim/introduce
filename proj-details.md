@@ -2,7 +2,7 @@
 
 - [Project Details](#project-details)
   * [Reformer](#reformer)
-  * [Micro-blog texts의 스티커 추천을 위한 딥러닝 기반의 API 제작](#micro-blog-texts의-스티커-추천을-위한-딥러닝-기반의-api-제작)
+  * [Micro-blog texts에 스티커 추천을 위한 딥러닝 기반의 API 제작](#micro-blog-texts에-스티커-추천을-위한-딥러닝-기반의-api-제작)
   * [EmotionGIF Challenge](#emotiongif-challenge)
   * [AI Challenge - Question & Answering task](#ai-challenge---question--answering-task)
   * [기업 분석을 위한 뉴스 비지도 클러스터링](#기업-분석을-위한-뉴스-비지도-클러스터링)
@@ -20,7 +20,7 @@
     - Reformer
     - PyTorch, TF1
 
-## Micro-blog texts의 스티커 추천을 위한 API 제작
+## Micro-blog texts에 스티커 추천을 위한 API 제작
 
 - 프로젝트 목표 : 유저가 작성한 메세지와 함께 보낼 수 있는 스티커를 추천하는 딥러닝 엔진 제작하기
 - 프로젝트 내용
@@ -55,7 +55,7 @@
     - ALBERT의 훈련은 주어진 데이터로 충분히 학습되지 않아 f1 score 결과가 낮게 나왔고, BiDAF와 DocQA 중에는 BiDAF가 근소하게 좋은 성적을 내어 BiDAF를 선택하여 제출
 - keywords
     - ALBERT, BiDAF, DocQA
-        - BiDAF - word embeding + chan cnn + highway + bi-lstm + attention + bi-lstm * 2 + dense
+        - BiDAF - [word embeding + chan cnn] + [highway * 2] + bi-lstm + attention + bi-lstm * 2 + dense
         - DocQA - BiDAF(bi-gru) + self-attention + bi-gru + dense
     - PyTorch
 
