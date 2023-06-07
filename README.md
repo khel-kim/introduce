@@ -1,1 +1,1 @@
-recent_projects.md
+proj-details_202008.md
